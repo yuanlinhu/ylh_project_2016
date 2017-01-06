@@ -1,5 +1,5 @@
 #include <event2/event.h>
-#include <stdio.h>
+#include <stdio>
 
 void cb_func(evutil_socket_t fd, short what, void* arg)
 {

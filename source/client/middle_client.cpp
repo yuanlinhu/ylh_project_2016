@@ -52,7 +52,11 @@ void cmd_msg_cb(int fd, short events, void* arg)
 
 void server_msg_cb(bufferevent* bev, void* arg)
 {
+    char msg[1024] = {0};
 
+    size_t len = bufferevent_read(bev, msg, sizeof(msg));
+
+    cout<<"recv: "<<msg<<endl;
 }
 
 void event_cb(bufferevent* bev, short event, void* arg)
