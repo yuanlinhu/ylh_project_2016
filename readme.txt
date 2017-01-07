@@ -1,6 +1,6 @@
 *. cmake
 *. net(libevent)
-*. probuf
+*. protobuf
 *. thread_pool
 *. unit_test(cppunit)
 *. mysql
