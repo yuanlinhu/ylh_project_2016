@@ -1,9 +1,9 @@
 *. cmake
-*. net(libevent)
+*. net(libevent, thread_pool)
 *. protobuf
-*. thread_pool
-*. unit_test(cppunit)
+*. redis
 *. mysql
+*. unit_test(cppunit)
 *. ice
 *. log
 *. elk
